@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "creakingpotion",
+  "version": "${version}",
+  "name": "CreakingPotion",
+  "description": "Adds a new potion effect that temporarily makes an entity get immobilized like the Creaking",
+  "authors": [
+    "Spyxar"
+  ],
+  "contact": {
+    "homepage": "https://github.com/Spyxar",
+    "sources": "https://github.com/Spyxar/CreakingPotion",
+    "issues": "https://github.com/Spyxar/CreakingPotion/issues"
+  },
+  "license": "MIT",
+  "icon": "assets/creakingpotion/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.spyxar.creakingpotion.client.CreakingPotionClient"
+    ],
+    "main": [
+      "com.spyxar.creakingpotion.CreakingPotion"
+    ]
+  },
+  "mixins": [
+    "creakingpotion.mixins.json",
+    {
+      "config": "creakingpotion.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  },
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modmenu.discord": "https://discord.gg/EPFcHVjK8p"
+      }
+    }
+  }
+}

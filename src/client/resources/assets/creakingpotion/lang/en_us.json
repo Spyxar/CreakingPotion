@@ -1,0 +1,9 @@
+{
+  "effect.creakingpotion.dormant_stun": "Dormant Stun",
+  "effect.creakingpotion.stun": "Stun",
+
+  "item.minecraft.potion.effect.dormant_stun": "Potion of Dormant Stun",
+  "item.minecraft.splash_potion.effect.dormant_stun": "Splash Potion of Dormant Stun",
+  "item.minecraft.lingering_potion.effect.dormant_stun": "Lingering Potion of Dormant Stun",
+  "item.minecraft.tipped_arrow.effect.dormant_stun": "Arrow of Dormant Stun"
+}
